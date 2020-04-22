@@ -1,0 +1,11 @@
+  @media (min-width: 768px) {
+      .container {
+          max-width: 720px;
+          width:720px;
+      }
+  }
+
+
+    body {background-color: white; color:#333333;}
+    h1   {font-size: 20pt; font-family: 'Nunito Sans', sans-serif; font-weight: bold;}
+    p    {font-size: 12pt; font-family: 'Nunito Sans', sans-serif;}
