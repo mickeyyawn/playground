@@ -6,6 +6,62 @@
   }
 
 
-    body {background-color: white; color:#333333;}
-    h1   {font-size: 20pt; font-family: 'Nunito Sans', sans-serif; font-weight: bold;}
-    p    {font-size: 12pt; font-family: 'Nunito Sans', sans-serif;}
+    body {background-color: white; font-family: 'Nunito Sans'; }
+    
+    h1   {font-size: 36pt; font-family: 'Nunito Sans', sans-serif; font-weight: bold;}
+    h2   {font-size: 18pt; font-family: 'Nunito Sans', sans-serif; font-weight: bold;}
+    h3   {font-size: 12pt; font-family: 'Nunito Sans', sans-serif; font-weight: 700;}
+
+    p    {font-size: 12pt; font-family: 'Noto Sans', sans-serif; font-weight: 400; color:#444444;}
+
+
+	a {
+	    display: inline-block;
+	    position: relative;
+	    color: #343434;
+	    text-decoration: none;
+	    border-bottom-width:3px;
+	    border-bottom-color:#91c0f7;
+	    border-bottom-style:solid; 
+	    outline: none !important;
+	    display:inline-block;
+	    height:1.5em;
+	    line-height: 1.5em;
+	    transition: 0.5s;
+	    padding-left:2px;
+	    padding-right:2px;
+	  }
+
+	  
+	  a:hover 	{ outline: none; text-decoration: none; background-color: rgb(145, 192, 247, 0.3); }
+	  a:link 	{ color: #333231; }
+	  a:visited { color: #333231; }
+
+
+
+    .quote {font-size: 36pt; color:#444444;}
+
+
+
+
+    .select-style {
+	    border: 1px solid #ccc;
+	    width: 120px;
+	    border-radius: 3px;
+	    overflow: hidden;
+	    background: #fafafa url("images/triangle.png") no-repeat 90% 50%;
+	}
+
+	.select-style select {
+	    padding: 5px 8px;
+	    width: 130%;
+	    border: none;
+	    box-shadow: none;
+	    background: transparent;
+	    background-image: none;
+	    -webkit-appearance: none;
+	}
+
+	.select-style select:focus {
+	    outline: none;
+	}
